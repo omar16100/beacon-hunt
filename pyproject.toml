@@ -1,7 +1,7 @@
 [project]
 name = "beacon-hunt"
 version = "0.1.0"
-description = "Add your description here"
+description = "Passive Bluetooth tools for finding a lost Apple device indoors"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
