@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[oc]
+.pytest_cache/
+build/
+dist/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Hunt output. These are logs of a real house: room names, timestamps and
+# beacon ids from a specific evening. Kept local, never published.
+hunt_logs/
+readings.json
+*.log
+
+# macOS
+.DS_Store
+
+# Internal planning docs from the hunt. They contain MAC addresses, LAN and
+# Tailscale IPs, hostnames and household device names. Not scrubbed, excluded.
+docs/
+.claude/
