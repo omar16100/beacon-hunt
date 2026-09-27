@@ -20,5 +20,10 @@ readings.json
 
 # Internal planning docs from the hunt. They contain MAC addresses, LAN and
 # Tailscale IPs, hostnames and household device names. Not scrubbed, excluded.
-docs/
+# Everything under docs/ stays ignored except the reviewed public docs
+# allow-listed below. A new public doc must be added here explicitly.
+docs/*
+!docs/index.md
+!docs/c4model.md
+!docs/27092026_c4_index_ci_plan.md
 .claude/

@@ -41,7 +41,7 @@ update again. That failure mode cost me the first version of this.
 Track the *strongest separated beacon* instead, whatever it currently calls
 itself. A rotated beacon is still a separated beacon, so the new identity takes
 over on its own. `ble_web.py` followed four rotations in one evening without
-noticing any of them.
+noticing any of them (details in the write-up linked above).
 
 ## What it cannot do
 
@@ -65,7 +65,7 @@ you are sitting in front of.
 ## Tests
 
 ```sh
-uv run pytest        # 78 tests
+uv run pytest        # 78 tests, no Bluetooth hardware needed
 ```
 
 ## Licence
