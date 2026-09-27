@@ -3,7 +3,7 @@
 Purpose: build record for adding `docs/index.md`, `docs/c4model.md` and a minimal
 GitHub Actions workflow to beacon-hunt.
 
-Status: done on branch `docs/c4-index-ci`, pending review and merge. Last updated
+Status: done, delivered in PR #1 (squash-merged to `main`). Last updated
 27 Sep 2026.
 
 ## Goal
@@ -61,8 +61,8 @@ Out of scope: any behaviour change to the tools or tests, packaging, releases.
 | CI workflow, verified by running its commands locally | Done |
 | Codex review (no blocker or major; minor and nit findings applied, one rejected), re-review clean | Done |
 | gitleaks (git and dir) and personal-data grep over the outgoing diff and log | Clean |
-| PR, CI green, squash merge, CI green on `main` | In the PR |
-| GitHub topics | After merge |
+| PR #1; CI on the PR ran on ubuntu-latest, Python 3.12.3: 78 passed | Done |
+| Squash merge, CI on `main`, GitHub topics | Done at merge time, recorded in the PR |
 
 ## Deviations
 

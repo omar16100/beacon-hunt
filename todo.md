@@ -13,6 +13,7 @@ Plan: [docs/27092026_c4_index_ci_plan.md](docs/27092026_c4_index_ci_plan.md)
 - [x] `.gitignore`: `docs/` is now `docs/*` with an allow-list for the public docs.
 - [x] Added `.github/workflows/ci.yml` (ubuntu-latest, `uv sync --locked`,
       `uv run pytest`). No test needed skipping: none opens a Bluetooth scanner.
+      First run on the PR: 78 passed on Linux, Python 3.12.3.
 - [x] README: rotation figure now points at the write-up; test line notes no
       Bluetooth hardware is needed.
 - [x] `ble_web.py` docstring: it said nothing is written to disk, but by default it
