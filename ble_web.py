@@ -10,8 +10,10 @@ Run it, then open http://127.0.0.1:8765 on the machine you are carrying.
 
     uv run python ble_web.py
 
-Serves on loopback only. Nothing is written to disk and nothing leaves the
-machine.
+Serves on loopback by default (--host changes that) and makes no outbound
+connections. Every separated-beacon reading is appended to
+hunt_logs/readings.jsonl (--log moves it, --no-log turns it off) and the process
+log goes to hunt_logs/ble_web.log, both relative to the working directory.
 """
 
 import argparse
