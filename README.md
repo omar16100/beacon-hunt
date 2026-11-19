@@ -6,7 +6,7 @@ street address.
 
 Built in an evening to find a flat iPhone. It worked: five rooms, 120 packets,
 and a final answer good to about a metre. Write-up:
-[Find My found my house. Bluetooth found the pillow](https://omarshabab.com/lost-iphone-bluetooth-hunt/).
+[Find My found my house. Bluetooth found the pillow](https://omar.sg/lost-iphone-bluetooth-hunt/).
 
 ## What it does
 
