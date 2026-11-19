@@ -2,6 +2,11 @@
 
 Change log and open items for beacon-hunt. Newest first.
 
+## 19 Nov 2026: write-up link
+
+- [x] README: the write-up link now points at `omar.sg`. The old domain of the
+      site expired.
+
 ## 27 Sep 2026: docs index, C4 model, CI
 
 Plan: [docs/27092026_c4_index_ci_plan.md](docs/27092026_c4_index_ci_plan.md)
